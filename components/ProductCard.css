@@ -1,0 +1,192 @@
+body {
+  background-color:rgb(45, 45, 45);
+  }
+.card{
+  display: flex;
+  border:none;
+  width: 300px;
+  justify-content: center;
+}
+
+
+.card-title {
+  color:rgb(162, 161, 161);
+  font-weight: inherit;
+  text-align: center;
+}
+.card-text {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+  .card-body{
+background-color:rgb(45, 45, 45); 
+
+  }
+ 
+  .product-name{
+    color: white;
+    font-weight: bold; 
+    transition: color 0.3s ease;
+  }
+  .product-name:hover{
+    color:#C26E41;
+    cursor: pointer;
+  }
+
+  .head{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .head h1{
+    color: white;
+font-weight: 600;
+  }
+  .head h6{
+    color:#C26E41;
+    font-weight:600;
+    font-size: medium;
+
+  }
+
+  .sections{
+    display: flex;
+
+    gap: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .sections h3{
+color: white;
+  }
+
+  .sections h3:hover{
+    color:#C26E41;
+    cursor: pointer;
+  }
+  
+
+   .icon-heart:hover {
+    color:#C26E41;
+
+    cursor: pointer;
+  }
+  .icon-heart{
+    position: absolute;
+font-size: 20px;
+top: 50px;
+right: 20px;  
+color: white;  
+cursor: pointer;
+transition: color 0.3s; 
+
+  }
+
+  .icon-bag{
+    position: absolute; 
+    font-size: 20px;     
+    top: 10px;           
+    right: 20px;          
+    color: white;        
+    cursor: pointer;     
+    transition: color 0.3s; 
+  }
+
+  .icon-bag:hover {
+    color:#C26E41;
+    cursor: pointer;
+  }
+
+.all{
+  display: flex;
+  color: white;
+  padding-bottom: 150px;
+ justify-content: center;
+ padding-right: 20px;
+
+}
+
+
+.all :hover{
+  color: #C26E41;
+  cursor: pointer;
+}  
+
+.filter-section{
+color: white;
+}
+
+
+
+.filter-section h4:hover{
+  color: #C26E41;
+  cursor: pointer;
+
+}
+
+.cat{
+  color:gray;
+}
+.cat :hover{
+  color: #C26E41;
+  cursor: pointer;
+}
+
+.accordion{
+  background-color: black;
+  
+}
+.btn-pricet{
+  background-color: rgb(45, 45, 45);
+  color: aliceblue;
+  border-color: transparent;
+
+}
+.btn-price{
+ background-color:rgb(45, 45, 45);
+ border-color: transparent;
+ height: 25px;
+ width: 25px;
+ border-radius: 5px;
+ color: white;
+}
+.btn-price :hover{
+color: #C26E41;
+}
+.btn-mat{
+  background-color: rgb(45, 45, 45);
+}
+
+.mat{
+  color:gray;
+}
+.mat :hover{
+  color: #C26E41;
+  cursor: pointer;
+}
+
+.style1{
+  color:gray;
+
+}
+
+.style1 :hover{
+  color: #C26E41;
+  cursor: pointer;
+}
+
+.btn-toggle{
+  background-color: rgb(45, 45, 45);
+  display: flex;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: '100%';
+  color: white;
+  font-size: 30px;
+}
